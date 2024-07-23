@@ -6,5 +6,5 @@ import org.springframework.stereotype.Service
 
 @Service
 class GitSearchService @Autowired constructor(private val gitSearchRepository: IGitSearchRepository) {
-    fun getUserRepositories(username:String)= gitSearchRepository.getUserRepositories(username)
+    fun getUserRepositories(username:String) = gitSearchRepository.getUserRepositories(username)
 }
